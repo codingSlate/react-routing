@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Section from './Section';
 const Home = () => {
   return (
-    <section>
-      <h1>Welcome to Weather Report </h1>
+    <Section headingText="Welcome to Weather Report">
       <nav aria-label="main">
         <p>View Weather in </p>
         <ul>
@@ -18,7 +18,7 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-    </section>
+    </Section>
   );
 };
 export default Home;
