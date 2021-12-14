@@ -19,3 +19,14 @@ li {
 /* a{
   text-decoration: none;
 } */
+.row div {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  margin-right: 20px;
+}
+.row span {
+  display: inline-block;
+  text-align: right;
+  width: 50px;
+}
