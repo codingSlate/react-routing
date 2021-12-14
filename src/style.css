@@ -1,3 +1,20 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+  text-align: center;
 }
+
+ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  padding: 5px;
+  margin: 5px;
+}
+/* a{
+  text-decoration: none;
+} */
