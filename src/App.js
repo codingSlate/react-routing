@@ -3,6 +3,7 @@ import { BrowserRouter as MyRouter, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Footer from './Pages/Footer';
+import Report from './Pages/Report'
 import './style.css';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <main>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
+          <Report scale="celcious"/>
         </main>
         <Footer />
       </div>

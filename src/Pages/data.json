@@ -1,0 +1,22 @@
+[
+  {
+    "state": "Punjab",
+    "temp": 100.1
+  },
+  {
+    "state": "Haryana",
+    "temp": 210.19
+  },
+  {
+    "state": "Gujarat",
+    "temp": 143.21
+  },
+  {
+    "state": "Andhra Pradesh",
+    "temp": 123.25
+  },
+  {
+    "state": "Assam",
+    "temp": 111.2
+  }
+]
