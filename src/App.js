@@ -13,7 +13,7 @@ const App = () => {
         <main>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
-          <Report scale="celcious"/>
+          <Route path="/reports/:scale" component={Report} />
         </main>
         <Footer />
       </div>
