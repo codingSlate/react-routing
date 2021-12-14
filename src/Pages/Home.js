@@ -1,7 +1,9 @@
 import React from 'react'
 const Home = () =>{
     return(
-    <div></div>
+    <section>
+      <h1>Welcome to Weather report </h1>
+    </section>
     )
 }
 export default Home
