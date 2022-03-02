@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as MyRouter, Route } from 'react-router-dom';
+import { BrowserRouter , Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Footer from './Pages/Footer';
@@ -8,7 +8,7 @@ import './style.css';
 
 const App = () => {
   return (
-    <MyRouter>
+    <BrowserRouter>
       <div>
         <main>
           <Route path="/" exact component={Home} />
@@ -17,7 +17,7 @@ const App = () => {
         </main>
         <Footer />
       </div>
-    </MyRouter>
+    </BrowserRouter>
   );
 };
 
